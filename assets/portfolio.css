@@ -96,8 +96,8 @@ p,li{word-break:keep-all;overflow-wrap:break-word}
 .case-story dl{margin:0}
 .case-story dt{font-weight:750;color:var(--blue);margin:24px 0 8px}
 .case-story dd{margin:0;max-width:72ch;color:#45586e}
-.case-story .evidence-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:24px}
-.case-story .evidence-links a{font-size:15px}
+.case-story .evidence-links,.case-copy .evidence-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:24px}
+.case-story .evidence-links a,.case-copy .evidence-links a{font-size:15px}
 .reading-note{background:var(--wash);padding:22px;border-radius:12px;margin-top:24px;font-size:15px}
 .release-chain{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:22px 0;padding:0}
 .release-chain li{padding:9px 12px;border:1px solid var(--line);border-radius:6px;font-size:14px;background:var(--wash)}
